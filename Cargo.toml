@@ -1,10 +1,10 @@
 [package]
-name = "my_gtk_app"
-version = "0.1.0"
+name = "MyDiary"
+version = "0.1.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gtk = "0.9"
 chrono = "0.4"
+gtk = { version = "0.9.2", package = "gtk4", features = ["v4_12"] }
